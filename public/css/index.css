@@ -1,16 +1,5 @@
 /* Estilos do index */
 
-.color-red {
-    color: rgb(128, 0, 0);
-}
-#link-home{
-color: purple;
-}
-
-.color-red ul li a {
-color: red;
-}
-
-.btn-red{
-    background-color: red;
+.cover-container figure img {
+    width: 100%;
 }
