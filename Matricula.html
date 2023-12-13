@@ -5,6 +5,7 @@
         <meta charset="utf-8">
         <link rel="stylesheet" href="public/css/footer.css">
         <link rel="stylesheet" href="public/css/header.css">
+        <link rel="stylesheet" href="public/css/matricula.css">
         <link rel="stylesheet" href="public/css/devaria.css">
     </head>
     <body>
@@ -24,42 +25,43 @@
             </nav>
         </header>
         <main>
-            <h1> Matrículas abertas para escola Jujutsu</h1>
-            <h2>
+            <h1 class="title text-center"> Matrículas abertas para escola Jujutsu</h1>
+            <h2 class="sub-title text-center">
                 Preencha com seus dados para se candidatar a uma vaga na escola de feitiçaria
             </h2>
-            <form action="obrigado.html">
-                <p>
+            <form action="obrigado.html" class="contact-form margin-horizontal-20px">
+                <div>
                     <label>Nome:</label> <input type="text" name="Nome" maxlength="70">
-                </p>
-                <p>
+                </div>
+                <div>
                     <label for="">E-mail:</label><input type="text" name="Email" maxlength="150">
-                </p>
-                <p>
+                </div>
+                <div>
                     <label for="">Comentários:</label>
                     <textarea name="Comentário" id="" cols="50" rows="4"></textarea>
-                    <p>
+                </div>
+                <div>
                         <label for="">Sexo</label>
-                        <input type="radio" name="Sexp" id=""><label for="">Masculino</label>
-                        <input type="radio" name="Sexp" id=""><label for="">Feminino</label>
-                    </p>
-                    <p>
-                        <label>Aonde conheceu o Jujutsu?</label>
-                        <select name="Conheceu">
-                            <option selected>Tomei uma expansão de domínio</option>
-                            <option>Vi uma maldição</option>
-                            <option>Vi um feiticeiro usando poder</option>
-                            <option>Leio o manga/assisto o anime</option>
-                        </select>
-                    </p>
-                    <p>
-                        <input type="checkbox" name="Aceite" value="Aceite" id="">
-                        <label for="">Estou ciente que posso corro risco de vida</label>
-                    </p>
-                    <p>
-                        <input type="submit" name="Enviar" value="Enviar">
-                        <input type="reset" value="Limpar" value="Limpar">
-                    </p>
+                        <input type="radio" name="Sexo" id=""><span>Masculino</span>
+                        <input type="radio" name="Sexo" id=""><span >Feminino</span>
+                </div>
+                <div>
+                    <label>Aonde conheceu o Jujutsu?</label>
+                    <select name="Conheceu">
+                         <option selected>Tomei uma expansão de domínio</option>
+                        <option>Vi uma maldição</option>
+                        <option>Vi um feiticeiro usando poder</option>
+                        <option>Leio o manga/assisto o anime</option>
+                    </select>
+                </div>
+                <div>
+                    <input type="checkbox" name="Aceite" value="Aceite" id="">
+                    <span>Estou ciente que posso corro risco de vida</span>
+                </div>
+                <div>
+                    <input type="submit" name="Enviar" value="Enviar">
+                    <input type="reset" value="Limpar" value="Limpar">
+                </div>
               
             </form>
 
